@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* I can't find the stated font-family (font-family: Halyard Dispaly, Halyard Text;)so i used the underlisted*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1600px;
+    color: #1E266D;
+}
+
+.bg_image {
+    width: 100%;
+    background: #ffffff;
+}
+
+/* Nav */
+.top_container {
+    width: 1100px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #ffffff;
+}
+
+nav > ul > .right_nav, .upper_footer > ul  {
+    position: absolute;
+    right: 150px;
+}
+
+nav > ul > li {
+    list-style: none;
+    float: left;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 80px;
+    color: #1E266D;
+    padding: 0 20px;
+}
+
+nav > ul > li > a:hover {
+    border-bottom: 2px solid #3751FF;
+}
+
+
+.left_nav {
+    padding-left: 120px;
+}
+
+.right_nav > li {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 0;
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    background: #3751FF;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    left: 79.81%;
+    right: 13.12%;
+    top: 26.83%;
+    bottom: 24.39%;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #3751FF;
+    color: #3751FF;
+    transition: 0.3s;
+}
+
+.logo {
+    position: absolute;
+    padding-top: 30px;
+}
+/* Nav */
+
+/* Hero */
+#hero {
+    width: 1600px;
+    height: 878px;
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    border-radius: 0px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.header_lower > h1 {
+    font-size: 56px;
+    padding-bottom: 30px;
+}
+
+.header_lower > p {
+    font-size: 18px;
+    line-height: 150%;
+    padding-bottom: 30px;
+}
+
+.btn_btn {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.btn_normal {
+    border: 0;
+    background-color: #3751FF;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.btn_border {
+    border: 1px solid #3751FF;
+    background-color: #ffffff;
+    color: #3751FF;
+}
+
+.btn_normal:hover {
+    background-color: #ffffff;
+    border: 1px solid #3751FF;
+    color: #3751FF;
+    transition: 0.3s;
+}
+
+.btn_border:hover {
+    background-color: #3751FF;
+    color: #ffffff;
+    transition: 0.3s;
+}
+/* Hero */
+
+/* Partners */
+.partners {
+    position: absolute;
+    width: 1179.4px;
+    height: 112px;
+    left: 210px;
+    top: 1146px;
+}
+
+.partners > p {
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(69, 88, 128, 0.5);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Partners */
+
+/* About */
+.about_card {
+    padding-top: 200px;
+}
+
+.about_title {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img_card {
+    margin: 0 auto;
+}
+
+.about_us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box_card {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text > h4 {
+    font-size: 22px;
+    height: 59px;
+    line-height: 125%;
+}
+
+/* About */
+
+/* Portfolio */
+.folio_card {
+    width: 1600px;
+    background-color: #FFF9EA;
+    padding-bottom: 30px;
+}
+
+.folio, .portfolio_button {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.folio_card > h2 {
+    font-size: 48px;
+    padding-top: 100px;
+}
+
+.folio_card > p {
+    font-size: 21px;
+}
+
+/* Portfolio */
+
+/* Testimony */
+.card_items {
+    width: 90%;
+    text-align: center;
+    
+}
+
+.test_title {
+    font-size: 48px;
+    line-height: 60px;
+    padding-top: 100px;
+}
+
+.card {
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  
+.card_container {
+    width: 1100;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 56px;
+    padding-left: 200px;
+    width: 1179px;
+    height: 583px;
+    left: 210px;
+    top: 3723px;
+  }
+
+#c1 {
+    width: 372.89px;
+    height: 467px;
+    left: 210px;
+    top: 3839px;
+}
+
+#c2 {
+    width: 372.89px;
+    height: 467px;
+    left: 611.57px;
+    top: 3839px;
+}
+
+#c3 {
+    width: 372.89px;
+    height: 467px;
+    left: 1016.11px;
+    top: 3839px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.description {
+    width: 285px;
+    height: 211px;
+    left: 655px;
+    top: 3877px;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: left;
+    padding: 30px;
+  }
+
+.info {
+    padding-bottom: 0;
+}
+
+.info > h4 {
+      font-size: 22px;
+      line-height: 125%;
+  }
+
+.img_thumb {
+    padding-top: 39px;
+}
+/* Testimony */
+
+/* cta */
+.action {
+    width: 1600px;
+    background-color: #3751FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta_text, .text_right {
+    padding-top: 88px;
+    padding-bottom: 115px;
+}
+
+.cta_text > h2 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.text_right button {
+    font-size: 18px;
+    width: 150px;
+}
+
+.text_right > p {
+    font-size: 16px;
+    line-height: 125%;
+}
+
+.std {
+    color: #FFF9EA;
+}
+/* cta */
+
+/* footer */
+.footer_area {
+    width: 1600px;
+}
+
+.upper_footer {
+    width: 80%;
+    padding-top: 124px;
+    padding-left: 220px;
+    padding-bottom: 77px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.textwidget > p {
+    font-size: 18px;
+    line-height: 145%;
+    padding-top: 50px;
+}
+
+.pages ul, .demo ul, .icons ul {
+    list-style: none;
+    font-size: 18px;
+    line-height: 225%;
+}
+
+.pages ul li a, .demo ul li a, .icons ul li a, .copyright > a {
+    text-decoration: none;
+}
+
+.social-icon > a {
+    color: #1E266D;
+    width: 32px;
+    height: 32px;
+    line-height: 34px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 16px;
+    margin: 15px 6px 12px 4px;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+  }
+  
+.social-icon a:hover {
+    color: #fff !important;
+  }
+  
+  .social-icon .facebook:hover {
+    background: #666666;
+  }
+  
+  .social-icon .twitter:hover {
+    background: #666666;
+  }
+  
+  .social-icon .instagram:hover {
+    background: #666666;
+  }
+  
+  .social-icon .linkedin:hover {
+    background: #666666;
+  }
+  
+  .social-icon .google:hover {
+    background: #666666;
+  }
+
+.hr {
+    border: 1px solid rgba(135, 146, 161, 0.08);
+}
+
+#copyright {
+    width: 80%;
+    padding-left: 220px;
+    padding-top: 53px;
+}
+
+.copyright_items {
+    float: right;
+    padding-right: 200px;
+    display: flex;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.copyright-content > p {
+    font-size: 14px;
+    line-height: 27px;
+}
+.copyright_items > li {
+    list-style: none;
+}
+.copyright-content > a {
+    font-size: 14px;
+    line-height: 27px;
+}
+/* footer */
